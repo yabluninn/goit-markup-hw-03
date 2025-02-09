@@ -6,8 +6,8 @@ body {
 
 .container {
   width: 1158px;
-  margin: 0;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header {
@@ -76,9 +76,9 @@ a:visited {
   gap: 40px;
 }
 
-.nav-item {
+/* .nav-item {
   padding: 24px 0;
-}
+} */
 
 .nav-link {
   font-size: 16px;
@@ -86,6 +86,7 @@ a:visited {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-link:hover {
@@ -153,6 +154,7 @@ a:visited {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 188px 0;
 }
 
 .preview-title {
@@ -162,15 +164,20 @@ a:visited {
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
 }
 
 .order-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
-  border: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 16px 32px;
